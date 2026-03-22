@@ -54,18 +54,18 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Home', link: '/' },
-          { text: 'Pre-training', link: '/pre-training/parallelism_strategies' }
+          { text: 'Pre-training', link: '/pre-training/parallelism_strategies.md' }
         ],
         sidebar: [
           {
             text: 'Pre-training',
             items: [
-              { text: 'Parallelism Strategies', link: '/pre-training/parallelism_strategies' },
-              { text: 'Distributed Communication Ops', link: '/pre-training/distributed_communication_ops' },
-              { text: 'Infrastructure Basics', link: '/pre-training/infrastructure_basics' },
-              { text: 'Muon Optimizer', link: '/pre-training/muon_optimizer' },
-              { text: 'Alternating Updates Efficient Transformers', link: '/pre-training/alternating_updates_efficient_transformers' },
-              { text: 'Smol Training Playbook Note', link: '/pre-training/smol_training_playbook_infrastructure_note' }
+              { text: 'Parallelism Strategies', link: '/pre-training/parallelism_strategies.md' },
+              { text: 'Distributed Communication Ops', link: '/pre-training/distributed_communication_ops.md' },
+              { text: 'Infrastructure Basics', link: '/pre-training/infrastructure_basics.md' },
+              { text: 'Muon Optimizer', link: '/pre-training/muon_optimizer.md' },
+              { text: 'Alternating Updates Efficient Transformers', link: '/pre-training/alternating_updates_efficient_transformers.md' },
+              { text: 'Smol Training Playbook Note', link: '/pre-training/smol_training_playbook_infrastructure_note.md' }
             ]
           }
         ]
@@ -78,25 +78,25 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '首页', link: '/zh/' },
-          { text: '预训练', link: '/zh/pre-training/parallelism_strategies' }
+          { text: '预训练', link: '/zh/pre-training/parallelism_strategies.md' }
         ],
         sidebar: [
           {
             text: '预训练 (Pre-training)',
             items: [
-              { text: '并行策略 (Parallelism Strategies)', link: '/zh/pre-training/parallelism_strategies' },
-              { text: '分布式通信算子 (Communication Ops)', link: '/zh/pre-training/distributed_communication_ops' },
-              { text: '基础设施基础 (Infrastructure Basics)', link: '/zh/pre-training/infrastructure_basics' },
-              { text: 'Muon 优化器 (Muon Optimizer)', link: '/zh/pre-training/muon_optimizer' },
-              { text: '交替更新高效 Transformer', link: '/zh/pre-training/alternating_updates_efficient_transformers' },
-              { text: '混合精度 ZERO', link: '/zh/pre-training/mixed_precision_zero' },
-              { text: '为何低精度训练会失败', link: '/zh/pre-training/why_low_precision_transformer_training_fails_flash_attention' },
+              { text: '并行策略 (Parallelism Strategies)', link: '/zh/pre-training/parallelism_strategies.md' },
+              { text: '分布式通信算子 (Communication Ops)', link: '/zh/pre-training/distributed_communication_ops.md' },
+              { text: '基础设施基础 (Infrastructure Basics)', link: '/zh/pre-training/infrastructure_basics.md' },
+              { text: 'Muon 优化器 (Muon Optimizer)', link: '/zh/pre-training/muon_optimizer.md' },
+              { text: '交替更新高效 Transformer', link: '/zh/pre-training/alternating_updates_efficient_transformers.md' },
+              { text: '混合精度 ZERO', link: '/zh/pre-training/mixed_precision_zero.md' },
+              { text: '为何低精度训练会失败', link: '/zh/pre-training/why_low_precision_transformer_training_fails_flash_attention.md' },
             ]
           },
           {
             text: '技术报告 (Tech Reports)',
             items: [
-              { text: 'Step 3.5 Flash', link: '/zh/tech-report/step-3-5-flash' }
+              { text: 'Step 3.5 Flash', link: '/zh/tech-report/step-3-5-flash.md' }
             ]
           }
         ],

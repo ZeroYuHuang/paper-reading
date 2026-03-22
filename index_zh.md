@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /zh/pre-training/parallelism_strategies
+      link: /zh/pre-training/parallelism_strategies.md
     - theme: alt
       text: 访问 GitHub
       link: https://github.com/ZeroYuHuang/paper-reading
