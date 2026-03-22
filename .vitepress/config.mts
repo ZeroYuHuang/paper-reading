@@ -34,6 +34,8 @@ export default defineConfig({
   // Set the base URL for GitHub Pages
   base: '/paper-reading/',
 
+  // Explicitly tell VitePress how to handle clean URLs
+  cleanUrls: true,
   ignoreDeadLinks: true,
 
   srcExclude: ['node_modules/**', 'smol-training-playbook/**'],
