@@ -1,0 +1,28 @@
+{
+  "name": "paper-reading",
+  "version": "1.0.0",
+  "description": "This repository is dedicated to organizing my reading notes as an LLM researcher. It is structured into several key categories to keep track of the latest advancements and foundational works in the field.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeroYuHuang/paper-reading.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ZeroYuHuang/paper-reading/issues"
+  },
+  "homepage": "https://github.com/ZeroYuHuang/paper-reading#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.30"
+  }
+}
